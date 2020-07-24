@@ -1,0 +1,26 @@
+{
+  "name": "TO-DO-LIST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shweta94Me/TO-DO-LIST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shweta94Me/TO-DO-LIST/issues"
+  },
+  "homepage": "https://github.com/Shweta94Me/TO-DO-LIST#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
